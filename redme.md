@@ -4,6 +4,7 @@ Hi! I'm Kartik, and this repository contains my journey of learning Data Structu
 
 ## What you'll find here
 
+- big o notation
 - Arrays
 - Strings
 - Linked Lists
