@@ -26,4 +26,4 @@ def accesElement(array,index):#o(1)
         print("There is  not any element in this index")
     else:
         print(array[index])
-accesElement(arr1,6) # time complexity O(1)
+accesElement(arr1,6) # time complexity  O(1)
