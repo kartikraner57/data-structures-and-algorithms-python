@@ -45,4 +45,5 @@ print(linear_search(my_array1,3))    # time complexity O(n)
 from array import *
 arr1 = array('i',[1,2,3,4,5])
 arr1.remove(3) # time complexity O(n)
-print(arr1
+print(arr1)
+
