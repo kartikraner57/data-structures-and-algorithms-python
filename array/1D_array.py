@@ -33,34 +33,45 @@ print(my_array)
 print("step 7")
 my_array.remove(11)
 print(my_array)
-
-
 11 #8. Remove last array element using pop() method
-
-12
-
+print("step 8")
+my_array.pop()
+print(my_array)
 #9. Fetch any element through its index using index() method
-
+print("step 9")
+print(my_array.index(3))
+print(my_array.index(5))
 13 #10. Reverse a python array using reverse() method
-
-14
+print("step 10")
+my_array.reverse()
+print(my_array)
 
 #11. Get array buffer information through buffer_info() method
-
+print("step 11")
+print(my_array.buffer_info())
 15
 
 #12. Check for number of occurrences of an element using count() method
-
+print("step 12") 
+my_array.append(11)
+print(my_array.count(11))
+print(my_array)
 16 # 13. Convert array to string using tostring() method
-
-17
+# print("step 13")
+# strTemp = my_array.tostring()
+# print(strTemp)
+# ints = array('i')
+# ints.fromstring(strTemp)   
+# print(ints)
 
 # 14. Convert array to a python list with same elements using tolist() method
-
-18
+print("step 14")
+print(my_array.tolist())
 
 #15. Append a string to char array using fromstring() method
 
 19
 
 #16. Slice Elements from an array
+Print("step 16")
+print(my_array[1:4])
