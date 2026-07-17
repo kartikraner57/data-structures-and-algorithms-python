@@ -20,7 +20,7 @@ print(len(newTwoDArray[0]))
 def accessElements(array, rowIndex, colIndex):
     if rowIndex >= len(array) and colIndex >= len(array[0]):
         print('Incorrect Index')
-    else:
+    else
         print(array[rowIndex][colIndex])
 
 accessElements(newTwoDArray, 1, 2)
