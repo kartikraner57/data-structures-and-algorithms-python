@@ -20,7 +20,7 @@ print(len(newTwoDArray[0]))
 def accessElements(array, rowIndex, colIndex):
     if rowIndex >= len(array) and colIndex >= len(array[0]):
         print('Incorrect Index')
-    else
+    else:
         print(array[rowIndex][colIndex])
 
 accessElements(newTwoDArray, 1, 2)
@@ -31,18 +31,18 @@ def traverseTDArray(array):
             print(array[i][j])
 
 
-traverseTDArray(twoDArray)
+# traverseTDArray(twoDArray)
 
 
-def searchTDArray(array, value):
-    for i in range(len(array)):
-        for j in range(len(array[0])):
-            if array[i][j] == value:
-                return 'The value is located index '+str(i)+" "+str(j)
-    return 'The element no found'
+# def searchTDArray(array, value):
+#     for i in range(len(array)):
+#         for j in range(len(array[0])):
+#             if array[i][j] == value:
+#                 return 'The value is located index '+str(i)+" "+str(j)
+#     return 'The element no found'
 
 
-print(searchTDArray(twoDArray, 444))
+# print(searchTDArray(twoDArray, 444))
 
-newTDArray = np.delete(twoDArray, 1, axis=1)
-print(newTDArray)
+# newTDArray = np.delete(twoDArray, 1, axis=1)
+# print(newTDArray)
