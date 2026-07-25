@@ -8,11 +8,12 @@ else:
     print(f"{target} is not in the list")
 
 
-# # Linear search
-# def linear_search(p_list, p_target):
-#     for i, value in enumerate(p_list):
-#         if value == p_target:
-#             return i
+# Linear searc
+# Linear search
+def linear_search(p_list, p_target):
+    for i, value in enumerate(p_list):
+        if value == p_target:
+            return i
         
-#     return -1
-# print(linear_search(my_list, target))
+    return -1
+print(linear_search(my_list, target))
