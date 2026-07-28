@@ -29,4 +29,4 @@
 #     sum1 =100*101/2
 #     sum2 = sum(list)
 #     print(sum1-sum2)
-# findMissing(mylist,100
+# findMissing(mylist,10
